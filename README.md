@@ -1,6 +1,7 @@
 # Instagram Clone using React JS and Tailwind CSS
 ## Available Scripts
 
+[Live Demo](https://tailwind-react-instagram.netlify.app/)
 In the project directory, you can run:
 
 ### `npm start`
