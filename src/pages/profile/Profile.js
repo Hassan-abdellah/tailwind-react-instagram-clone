@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink,Switch , Route} from 'react-router-dom';
-import { useLocation } from 'react-router';
 import Save from './save.svg';
 import Grid from './grid.svg';
 import Person from './person.svg';
@@ -8,16 +7,12 @@ import Posts from '../posts/Posts';
 import Saved from '../saved/Saved';
 import Tagged from '../tagged/Tagged';
 const Profile = ({setModalOpen , setModalPost}) => {
-
-    const location = useLocation();
-    // const pathname = location.pathname;
-    // console.log(pathname)
     return (
         <>
         {/* <div className="w-1100 ml-auto pl-14 pt-8"> */}
-        <div className='conatiner xl:max-w-5xl lg:max-w-4xl md:max-w-2xl max-w-sm my-0 mx-auto'>
-            <div className="flex justify-start py-6 px-4">
-                <div className="sm:mr-10 mr-1">
+        <div className='conatiner xl:max-w-5xl lg:max-w-4xl md:max-w-2xl max-w-sm my-0 mx-auto pt-12'>
+            <div className="flex justify-start py-6 px-4 items-center sm:items-stretch">
+                <div className="sm:mr-10">
                     <img src="/images/1.jpg" alt='' className="rounded-full sm:w-36 sm:h-36 w-24 h-24 object-cover"/>
                 </div>
                 <div className=" flex flex-col pt-3 pl-1 w-80">

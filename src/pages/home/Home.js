@@ -4,7 +4,7 @@ import Card from '../../components/Card';
 
 const Home = () => {
     return (
-        <div>
+        <div className='pt-12'>
             {posts.map(post => (
                 <Card key={post.id} post={post}/>
             ))}
